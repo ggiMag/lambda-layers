@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sharp-layer"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-my1xokupstu5"
+s3_prefix = "sharp-layer"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = true
